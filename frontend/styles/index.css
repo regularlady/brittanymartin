@@ -137,9 +137,10 @@ input[type=submit]:hover {
 }
 
 .hlist {
-  padding: 0;
-  margin: 0;
+  padding: 0 25px;
+  margin: auto;
   display: flex;
+  max-width: 65rem;
   background: #ffecec;
 }
 
