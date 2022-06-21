@@ -135,3 +135,23 @@ input[type=submit]:hover {
 .photo-gallery img {
   width: 25%;
 }
+
+.hlist {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  background: #ffecec;
+}
+
+.hlist li {
+  list-style-type: none;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .hlist { flex-wrap: wrap; }
+  .hlist li { width: 50%; }
+}
