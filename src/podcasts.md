@@ -42,7 +42,7 @@ n this episode I talk with Brittany Martin, Lead Web Developer at the Pittsburgh
 Ruby on Rails Podcast. Brittany and I talk about working successfully with poor-quality APIs, whether to extract 
 application code into gems or not, and, of course, roller derby.
 
-<a href="https://www.codewithjason.com/rails-with-jason-podcast/episodes/brittany-martin-SKJrBvWw/">
+<a href="https://www.codewithjason.com/podcast/9478261-054-third-party-apis-refactoring-and-roller-derby-with-brittany-martin//">
  <img alt="Listen" src="images/listen.png" target="_blank">
 </a>
 

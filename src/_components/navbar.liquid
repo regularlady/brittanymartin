@@ -1,22 +1,39 @@
 <header>
-  <img src="{{ '/images/purple.svg' | relative_url }}" alt="Logo" height="80px" />
+  <img src="{{ '/images/purple.svg' | relative_url }}" alt="Logo" height="60px" />
 </header>
 
 <nav>
   <ul>
-    <img src="{{ '/images/green.svg' | relative_url }}" alt="green" height="50px" />
-    <img src="{{ '/images/green.svg' | relative_url }}" alt="green" height="50px" />
-    <img src="{{ '/images/green.svg' | relative_url }}" alt="green" height="50px" />
-    <img src="{{ '/images/green.svg' | relative_url }}" alt="green" height="50px" />
-    <img src="{{ '/images/green.svg' | relative_url }}" alt="green" height="50px" />
-    <img src="{{ '/images/green.svg' | relative_url }}" alt="green" height="50px" />
+    {% for i in (1..8) %}
+      <img src="{{ '/images/green.svg' | relative_url }}" alt="green" height="40px" />
+    {% endfor %}
   </ul>
-  <ul class="hlist">
+</nav>
+
+<nav id="main-menu">
+  <ul>
     <li><a href="{{ '/' | relative_url }}">Home</a></li>
     <li><a href="{{ '/podcasts' | relative_url }}">Podcasts</a></li>
     <li><a href="{{ '/speaking' | relative_url }}">Speaking</a></li>
     <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
     <li><a href="{{ '/baking' | relative_url }}">Baking</a></li>
-    <li><a href="{{ '/contact' | relative_url }}">Contact Me</a></li>
+    <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
   </ul>
 </nav>
+
+<input type="checkbox" id="hamburger-input" class="burger-shower" />
+<label id="hamburger-menu" for="hamburger-input">
+  <nav id="sidebar-menu">
+    <h3>Menu</h3>
+    <ul>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/podcasts' | relative_url }}">Podcasts</a></li>
+      <li><a href="{{ '/speaking' | relative_url }}">Speaking</a></li>
+      <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
+      <li><a href="{{ '/baking' | relative_url }}">Baking</a></li>
+      <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+    </ul>
+  </nav>
+</label>
+
+<div class="overlay"></div>
