@@ -21,7 +21,7 @@ Code it podcast about his origin, his love of the Ruby community and their exper
 switch host seats and Drew interviews Brittany about her love of burpees, what she is working on, her blockers and 
 what she currently finds interesting. 
 
-<a href="https://podcast.drbragg.dev/">
+<a href="https://podcast.drbragg.dev/episodes/episode-4-brittany-martin/">
  <img alt="Listen" src="images/listen.png" target="_blank">
 </a>
 
